@@ -1,0 +1,136 @@
+/*Font Face*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+text-justify{
+    text-align: justify;
+}*/
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+    font-weight: 600;
+}
+*{
+	font-family: segoeUI;
+}
+/* Common Code End */
+/*header start*/
+header{
+	background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.navbar i{
+	color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #30C39E;
+}
+.banner h1{
+	color: #30C39E;
+}
+.banner .btn-outline-light:hover {	
+	color: #fff;
+	background-color: #30C39E;
+	border: 1px solid transparent;
+	
+}
+/*header end*/
+/*about start*/
+.about .btn-one {
+    color: #FFF;
+    background-color: #0a8ea0;
+}
+.about .btn-one:hover {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+/*about end*/
+/*services start*/
+.services{
+    background-color: #30C39E;
+}
+/*services end*/
+/*experiences start*/
+.experience .card span {
+    color: #fff;
+    padding: 3px 5px;
+    background: #30C39E;
+    display: inline-block;
+}
+/*experiences end*/
+/*info start*/
+.info{
+    background-color: #0a8ea0;
+}
+.info p{
+    color: #ddd;
+}
+/*info end*/
+/*contact start*/
+.contact .address i, .contact .form i{
+    color: #30C39E;
+    font-size: 16px;
+}
+.contact .address a{
+    color: #666666;
+    font-size: 16px;
+}
+.contact .address iframe {
+    width: 100%;
+    min-height: 260px;
+    border: 5px solid #eee;
+}
+.contact .form button{
+    padding: 8px 40px;
+    background-color: #0a8ea0;
+}
+.contact .form button:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+/*contact end*/
+/*footer start*/
+footer{
+    background: #191919;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+footer ul li a{
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #222222;
+    display: inline-block;
+}
+footer .back2top{
+    padding: 8px 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #222222;
+}
+/*footer end*/
